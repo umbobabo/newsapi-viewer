@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>News API viewer</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/css/index.css" />
+</head>
+
+<body>
+  <form method="get">
+    <input name="q" />
+    <input type="submit">
+  </form>
+  <ul>
+     {{#each articles}}
+    <li>
+      <a href={{this.url}}>
+        <h2>{{this.title}}</h2>
+        <img src="{{this.urlToImage}}" />
+        <p>{{this.description}}</p>
+        <time datetime="{{this.publishedAt}}">{{this.publishedAt}}</time>
+      </a>
+    </li>
+    {{/each}}
+  </ul>
+</body>
+
+</html>

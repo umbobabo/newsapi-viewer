@@ -1,0 +1,17 @@
+body {
+  font-size: 18px; 
+}
+
+ul {
+  display: flex;
+  direction: row;
+}
+
+li {
+  width: 320px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
