@@ -19,7 +19,8 @@ const init = async () => {
       html: require("handlebars")
     },
     relativeTo: __dirname,
-    path: "templates"
+    path: "templates",
+    helpersPath: "templates/helpers",
   });
   
   server.start();

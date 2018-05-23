@@ -13,16 +13,20 @@
 <body>
   <form method="get">
     <input name="q" />
-    <input type="submit">
+    <input type="submit" value="Search">
   </form>
   <ul>
      {{#each articles}}
     <li>
       <a href={{this.url}}>
-        <h2>{{this.title}}</h2>
-        <img src="{{this.urlToImage}}" />
-        <p>{{this.description}}</p>
-        <time datetime="{{this.publishedAt}}">{{this.publishedAt}}</time>
+        <div class="img-wrapper">
+          <img src="{{this.urlToImage}}" />
+        </div>
+        <div class="content-wrapper">
+          <time datetime="{{this.publishedAt}}">{{formatDate this.publishedAt}}</time>
+          <h2>{{this.title}}</h2>
+          <p>{{this.description}}</p>
+        </div>
       </a>
     </li>
     {{/each}}
