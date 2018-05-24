@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "react-scripts test --env=jsdom",
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "start": "npm run build && npm run start:ssr",
+    "start:cs": "react-scripts start",
     "start:ssr": "node ./src/server/index.js",
     "start:dev": "nodemon ./src/server/index.js"
   },
