@@ -5,8 +5,7 @@ import SearchForm from "./components/search-form";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-
-const { initialList, filterList } = require("./service/news-api");
+import { name } from "./config/app";
 
 class App extends Component {
   constructor(props) {
@@ -43,7 +42,7 @@ class App extends Component {
         <AppBar position="sticky">
           <Toolbar>
             <Typography variant="title" color="inherit">
-              News API Viewer
+              {name}
             </Typography>
           </Toolbar>
         </AppBar>

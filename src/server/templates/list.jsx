@@ -2,12 +2,14 @@
 const React = require("react");
 const App = require("../../App").default;
 const assets = require("../../../build/asset-manifest.json");
+const { name } = require("../../../src/config/app");
+
 class View extends React.Component {
   render() {
     return (
       <html>
         <head>
-          <title>{this.props.articles[0].title}</title>
+          <title>{name}</title>
           <link
             rel="stylesheet"
             type="text/css"
