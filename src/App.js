@@ -12,7 +12,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      articles: null
+      articles: props.articles || null
     };
     this.submitHandler = this.submitHandler.bind(this);
   }
@@ -23,20 +23,17 @@ class App extends Component {
     });
     const q = event.target.querySelector("[name='q']").value;
     event.preventDefault();
-    fetch(filterList(q))
+
+    const url = new URL(window.location.href),
+      params = { q, format: "json" };
+    Object.keys(params).forEach(key =>
+      url.searchParams.append(key, params[key])
+    );
+
+    fetch(url)
       .then(res => res.json())
       .then(({ articles }) => {
         this.setState({ articles });
-      });
-  }
-
-  componentDidMount() {
-    fetch(initialList)
-      .then(res => res.json())
-      .then(({ articles }) => {
-        this.setState({
-          articles
-        });
       });
   }
 

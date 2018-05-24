@@ -1,6 +1,7 @@
 "use strict";
 
 const Hapi = require("hapi");
+const HapiReactViews = require("hapi-react-views");
 const router = require("./router");
 
 const server = Hapi.server({
@@ -8,21 +9,26 @@ const server = Hapi.server({
   host: "localhost"
 });
 
+require("babel-core/register")({
+  presets: ["react", "env"]
+});
 
 const init = async () => {
-  await server.register(require('inert'));
+  await server.register(require("inert"));
   await server.register(require("vision"));
   router(server);
 
   server.views({
     engines: {
-      html: require("handlebars")
+      jsx: HapiReactViews
     },
     relativeTo: __dirname,
     path: "templates",
-    helpersPath: "templates/helpers",
+    compileOptions: {
+      renderMethod: "renderToString"
+    }
   });
-  
+
   server.start();
   console.log(`Server running at: ${server.info.uri}`);
 };

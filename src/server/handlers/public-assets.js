@@ -1,9 +1,9 @@
 module.exports = {
   method: "GET",
-  path: "/css/{p*}",
+  path: "/static/{p*}",
   handler: {
     directory: {
-      path: "src/css"
+      path: "build/static"
     }
   }
 };

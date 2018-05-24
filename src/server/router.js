@@ -1,7 +1,6 @@
 const handlers = [
   require("./handlers/list.js"),
-  require("./handlers/article.js"),
-  require("./handlers/public-assets.js"),
+  require("./handlers/public-assets.js")
 ];
 
 function router(server) {
