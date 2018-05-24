@@ -1,6 +1,5 @@
 const handlers = [
   require("./handlers/list.js"),
-  require("./handlers/article.js"),
   require("./handlers/public-assets.js"),
 ];
 
