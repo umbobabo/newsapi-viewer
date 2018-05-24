@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticlesList renders a list of articles 1`] = `
+<ul>
+  <li>
+    <div>
+      <div
+        className="MuiPaper-root-4 MuiPaper-elevation2-8 MuiPaper-rounded-5 MuiCard-root-3 SimpleMediaCard-card-1"
+      >
+        <div
+          className="MuiCardMedia-root-31 SimpleMediaCard-media-2"
+          src={undefined}
+          style={
+            Object {
+              "backgroundImage": "url(\\"http://anUrl\\")",
+            }
+          }
+          title="test test test test"
+        />
+        <div
+          className="MuiCardContent-root-33"
+        >
+          <h2
+            className="MuiTypography-root-34 MuiTypography-headline-39 MuiTypography-gutterBottom-51"
+          >
+            test test test test
+          </h2>
+          <p
+            className="MuiTypography-root-34 MuiTypography-body1-43"
+          >
+            2018-4-25 17:07:20
+          </p>
+          <p
+            className="MuiTypography-root-34 MuiTypography-body1-43"
+          >
+            A description
+          </p>
+        </div>
+        <div
+          className="MuiCardActions-root-58"
+        >
+          <a
+            className="MuiButtonBase-root-76 MuiButton-root-60 MuiButton-flatPrimary-62 MuiButton-sizeSmall-73 MuiCardActions-action-59"
+            href="https://www.telegraph.co.uk/news/2018/04/25/test-test-test-test/"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            <span
+              className="MuiButton-label-61"
+            >
+              Learn More
+            </span>
+            <span
+              className="MuiTouchRipple-root-79"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div>
+      <div
+        className="MuiPaper-root-4 MuiPaper-elevation2-8 MuiPaper-rounded-5 MuiCard-root-3 SimpleMediaCard-card-1"
+      >
+        <div
+          className="MuiCardMedia-root-31 SimpleMediaCard-media-2"
+          src={undefined}
+          style={
+            Object {
+              "backgroundImage": "url(\\"http://anUrl\\")",
+            }
+          }
+          title="test test test test"
+        />
+        <div
+          className="MuiCardContent-root-33"
+        >
+          <h2
+            className="MuiTypography-root-34 MuiTypography-headline-39 MuiTypography-gutterBottom-51"
+          >
+            test test test test
+          </h2>
+          <p
+            className="MuiTypography-root-34 MuiTypography-body1-43"
+          >
+            2018-4-25 17:07:20
+          </p>
+          <p
+            className="MuiTypography-root-34 MuiTypography-body1-43"
+          >
+            A description
+          </p>
+        </div>
+        <div
+          className="MuiCardActions-root-58"
+        >
+          <a
+            className="MuiButtonBase-root-76 MuiButton-root-60 MuiButton-flatPrimary-62 MuiButton-sizeSmall-73 MuiCardActions-action-59"
+            href="https://www.telegraph.co.uk/news/2018/04/25/test-test-test-test/"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            <span
+              className="MuiButton-label-61"
+            >
+              Learn More
+            </span>
+            <span
+              className="MuiTouchRipple-root-79"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div>
+      <div
+        className="MuiPaper-root-4 MuiPaper-elevation2-8 MuiPaper-rounded-5 MuiCard-root-3 SimpleMediaCard-card-1"
+      >
+        <div
+          className="MuiCardMedia-root-31 SimpleMediaCard-media-2"
+          src={undefined}
+          style={
+            Object {
+              "backgroundImage": "url(\\"http://anUrl\\")",
+            }
+          }
+          title="test test test test"
+        />
+        <div
+          className="MuiCardContent-root-33"
+        >
+          <h2
+            className="MuiTypography-root-34 MuiTypography-headline-39 MuiTypography-gutterBottom-51"
+          >
+            test test test test
+          </h2>
+          <p
+            className="MuiTypography-root-34 MuiTypography-body1-43"
+          >
+            2018-4-25 17:07:20
+          </p>
+          <p
+            className="MuiTypography-root-34 MuiTypography-body1-43"
+          >
+            A description
+          </p>
+        </div>
+        <div
+          className="MuiCardActions-root-58"
+        >
+          <a
+            className="MuiButtonBase-root-76 MuiButton-root-60 MuiButton-flatPrimary-62 MuiButton-sizeSmall-73 MuiCardActions-action-59"
+            href="https://www.telegraph.co.uk/news/2018/04/25/test-test-test-test/"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            <span
+              className="MuiButton-label-61"
+            >
+              Learn More
+            </span>
+            <span
+              className="MuiTouchRipple-root-79"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
