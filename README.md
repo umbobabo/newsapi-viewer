@@ -19,11 +19,13 @@ Please read the .md files for more information about I approached it.
 
 ## Run the Application
 
+Please clone the branch of you interest then execute on your CLI:
+
 ```
 npm i
 NEWS_API_KEY=<YOUR_API_KEY>  npm run start
 ```
 
-## Something is missing...
+## Something is missing
 
 Due to lack of time and because it's also GDPR week unfortunately :(, I wasn't unable to cover everything as I wanted to. Apologies in advance for some lack in tests, typechecking, optimisation of the folder structure, automation, and commit messages.
