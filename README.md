@@ -11,9 +11,10 @@ I thought that was a sensible approach.
 
 (First iteration) [1-MVP](https://github.com/umbobabo/newsapi-viewer/tree/1-MVP)
 : It is basically a Multiple Page Application SSR.
-Please read the .md files for more information about I approached it.
+[Read more information](https://github.com/umbobabo/newsapi-viewer/blob/1-MVP/README.md).
 
-(Second iteration - final result) [2-SPA](https://github.com/umbobabo/newsapi-viewer/tree/2-SPA): it is instead an universal Single Page Application with SSR. Please read the .md files for more information about I approached it.
+(Second iteration - final result) [2-SPA](https://github.com/umbobabo/newsapi-viewer/tree/2-SPA): it is instead an universal Single Page Application with SSR.
+[Read more information](https://github.com/umbobabo/newsapi-viewer/blob/2-SPA/SPA.md).
 
 **If you don't have time to view both the solutions please jump to 2-SPA branch cause it's the final results.**
 
